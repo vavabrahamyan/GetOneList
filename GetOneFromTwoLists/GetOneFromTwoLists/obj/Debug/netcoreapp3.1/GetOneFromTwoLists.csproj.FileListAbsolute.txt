@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.exe
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.deps.json
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.runtimeconfig.json
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.runtimeconfig.dev.json
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.dll
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\bin\Debug\netcoreapp3.1\GetOneFromTwoLists.pdb
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.AssemblyInfo.cs
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.dll
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.pdb
+C:\Users\user\Desktop\Working_Folder\GetOneList\GetOneFromTwoLists\GetOneFromTwoLists\obj\Debug\netcoreapp3.1\GetOneFromTwoLists.genruntimeconfig.cache
