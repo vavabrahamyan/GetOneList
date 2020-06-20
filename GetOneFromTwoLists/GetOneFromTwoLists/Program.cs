@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace GetOneFromTwoLists
 {
@@ -27,6 +28,19 @@ namespace GetOneFromTwoLists
             temp.next = new ListNode { value = value, next = null };
             return retList;
         }
+        public static void PrintList(this ListNode list)
+        {
+            ListNode temp = list;
+            string str = "";
+            while(temp.next != null)
+            {
+                str += temp.value.ToString();
+                temp = temp.next;
+                str += " -> ";
+            }
+            str += temp.value.ToString();
+            Console.WriteLine(str);
+        }
     }
     class Program
     {
@@ -45,8 +59,69 @@ namespace GetOneFromTwoLists
                     }
                 }
             };//1->3->5
-            list1.Add(8);
-            Console.WriteLine(list1.next.next.next.value);
+            ListNode list2 = new ListNode
+            {
+                value = 2,
+                next = new ListNode
+                {
+                    value = 4,
+                    next = new ListNode
+                    {
+                        value = 6,
+                        next = null
+                    }
+                }
+            };//2->4->6
+
+
+            ListNode newList = GetOne(list1, list2);
+            newList.PrintList();
+        }
+        static ListNode GetOne(ListNode list1, ListNode list2)
+        {
+            ListNode retList;
+            ListNode temp1;
+            ListNode temp2;
+
+            if (list1.value <= list2.value)
+            {
+                retList = new ListNode { value = list1.value, next = null };
+                temp1 = list1.next;
+                temp2 = list2;
+            }
+            else
+            {
+                retList = new ListNode { value = list2.value, next = null };
+                temp1 = list2.next;
+                temp2 = list1;
+            }
+            while(temp1!=null || temp2 != null)
+            {
+                if(temp1!= null && temp2 != null)
+                {
+                    if(temp1.value <= temp2.value)
+                    {
+                        retList.Add(temp1.value);
+                        temp1 = temp1.next;
+                    }
+                    else
+                    {
+                        retList.Add(temp2.value);
+                        temp2 = temp2.next;
+                    }
+                }
+                else if(temp1!= null)
+                {
+                    retList.Add(temp1.value);
+                    temp1 = temp1.next;
+                }
+                else
+                {
+                    retList.Add(temp2.value);
+                    temp2 = temp2.next;
+                }
+            }
+            return retList;
         }
     }
 }
